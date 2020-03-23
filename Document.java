@@ -1,10 +1,10 @@
 
 public class Document {
 	public Document(String name) {
-		System.out.println(" Documented named ... is created");
+		System.out.println(" Documented named " + name + " is created");
 	}
 	public void load() {
-		System.out.println("document ... is loaded into view");
+		System.out.println("document " + name + " is loaded into view");
 	}
 	public void spell() {
 		System.out.println("document ... is being checked for spelling errors");
