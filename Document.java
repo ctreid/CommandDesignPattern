@@ -7,12 +7,12 @@ public class Document {
 		System.out.println("document " + name + " is loaded into view");
 	}
 	public void spell() {
-		System.out.println("document ... is being checked for spelling errors");
+		System.out.println("document " + name + " is being checked for spelling errors");
 	}
 	public void save() {
-		System.out.println(" document ... is being saved...");
+		System.out.println(" document " + name + " is being saved...");
 	}
 	public void print() {
-		System.out.println("document ... is printing..");
+		System.out.println("document " + name + " is printing..");
 	}
 }
