@@ -1,3 +1,7 @@
+/* 
+ * @author Camryn Reid, Jason Bell, Lauren Lee
+ */
+
 import java.util.HashMap;
 public class InputHandler {
 
