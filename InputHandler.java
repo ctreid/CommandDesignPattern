@@ -20,6 +20,11 @@ public class InputHandler {
 		SpellCommand spellCommand = new SpellCommand(document);
 		commands.put(spellCommand, "spell");
 	}
+	
+	/*
+	 * @param String
+	 * @return void
+	 */
 	public void inputEntered(String command) {
 		if (command.equals("load")) {
 			Document.load();
